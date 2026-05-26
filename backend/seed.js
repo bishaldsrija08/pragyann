@@ -3,42 +3,12 @@ const PersonalClass = require('./models/PersonalClass');
 
 const defaultWorkshops = [
   {
-    title: 'Introduction to Web Development',
-    date: '2026-06-06',
-    day: 'Saturday',
-    startTime: '10:00 AM',
-    endTime: '12:00 PM',
-    link: 'https://meet.google.com/example-web-dev',
-    isDefault: true,
-    isCustom: false
-  },
-  {
     title: 'Python for Beginners',
     date: '2026-06-13',
     day: 'Saturday',
     startTime: '11:00 AM',
     endTime: '01:00 PM',
     link: 'https://meet.google.com/example-python',
-    isDefault: true,
-    isCustom: false
-  },
-  {
-    title: 'Data Structures & Algorithms',
-    date: '2026-06-20',
-    day: 'Saturday',
-    startTime: '10:00 AM',
-    endTime: '12:30 PM',
-    link: 'https://meet.google.com/example-dsa',
-    isDefault: true,
-    isCustom: false
-  },
-  {
-    title: 'Introduction to Digital Art',
-    date: '2026-06-27',
-    day: 'Saturday',
-    startTime: '02:00 PM',
-    endTime: '04:00 PM',
-    link: '',
     isDefault: true,
     isCustom: false
   }
